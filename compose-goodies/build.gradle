@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+    id 'maven-publish'
 }
 
 android {
@@ -33,7 +34,52 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion compose_version
     }
+    publishing {
+        singleVariant('release') {
+            withSourcesJar()
+        }
+    }
+
 }
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+
+                groupId = 'com.github.ShreyashKore'
+                artifactId = 'ComposeGoodies'
+                version = '0.0.1-alpha'
+            }
+        }
+    }
+}
+publishing {
+    publications {
+        release(MavenPublication) {
+            artifactId = 'ComposeGoodies'
+            pom {
+                name = 'Compose Goodies'
+                description = 'A collection of compose goodies.'
+                url = 'https://github.com/ShreyashKore/ComposeGoodies'
+                licenses {
+                    license {
+                        name = 'The MIT License'
+                        url = 'https://opensource.org/licenses/MIT'
+                    }
+                }
+                developers {
+                    developer {
+                        id = 'shreyash'
+                        name = 'Shreyash Kore'
+                        email = ''
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 dependencies {
 
