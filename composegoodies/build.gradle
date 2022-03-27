@@ -49,7 +49,7 @@ afterEvaluate {
 
                 groupId = 'com.github.ShreyashKore'
                 artifactId = 'ComposeGoodies'
-                version = '0.0.1-alpha'
+                version = '0.0.4-alpha'
             }
         }
     }
