@@ -54,31 +54,31 @@ afterEvaluate {
         }
     }
 }
-publishing {
-    publications {
-        release(MavenPublication) {
-            artifactId = 'ComposeGoodies'
-            pom {
-                name = 'Compose Goodies'
-                description = 'A collection of compose goodies.'
-                url = 'https://github.com/ShreyashKore/ComposeGoodies'
-                licenses {
-                    license {
-                        name = 'The MIT License'
-                        url = 'https://opensource.org/licenses/MIT'
-                    }
-                }
-                developers {
-                    developer {
-                        id = 'shreyash'
-                        name = 'Shreyash Kore'
-                        email = ''
-                    }
-                }
-            }
-        }
-    }
-}
+//publishing {
+//    publications {
+//        release(MavenPublication) {
+//            artifactId = 'ComposeGoodies'
+//            pom {
+//                name = 'Compose Goodies'
+//                description = 'A collection of compose goodies.'
+//                url = 'https://github.com/ShreyashKore/ComposeGoodies'
+//                licenses {
+//                    license {
+//                        name = 'The MIT License'
+//                        url = 'https://opensource.org/licenses/MIT'
+//                    }
+//                }
+//                developers {
+//                    developer {
+//                        id = 'shreyash'
+//                        name = 'Shreyash Kore'
+//                        email = ''
+//                    }
+//                }
+//            }
+//        }
+//    }
+//}
 
 
 dependencies {
