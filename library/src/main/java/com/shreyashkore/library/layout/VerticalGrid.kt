@@ -1,4 +1,8 @@
-package com.shreyashkore.composegoodies.layout
+/*
+ * Copyright (c) 2022. Shreyash Kore.
+ */
+
+package com.shreyashkore.library.layout
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier

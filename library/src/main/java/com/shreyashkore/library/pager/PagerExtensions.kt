@@ -1,4 +1,8 @@
-package com.shreyashkore.composegoodies.pager
+/*
+ * Copyright (c) 2022. Shreyash Kore.
+ */
+
+package com.shreyashkore.library.pager
 
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.accompanist.pager.PagerState

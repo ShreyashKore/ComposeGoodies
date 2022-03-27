@@ -1,4 +1,8 @@
-package com.shreyashkore.composegoodies.color
+/*
+ * Copyright (c) 2022. Shreyash Kore.
+ */
+
+package com.shreyashkore.library.color
 
 import androidx.compose.material.MaterialTheme
 import androidx.compose.runtime.Composable

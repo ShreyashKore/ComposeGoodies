@@ -1,4 +1,8 @@
-package com.shreyashkore.composegoodies.buttons
+/*
+ * Copyright (c) 2022. Shreyash Kore.
+ */
+
+package com.shreyashkore.library.buttons
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource

@@ -1,4 +1,8 @@
-package com.shreyashkore.composegoodies.buttons
+/*
+ * Copyright (c) 2022. Shreyash Kore.
+ */
+
+package com.shreyashkore.library.buttons
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.*
@@ -13,7 +17,7 @@ import androidx.compose.ui.graphics.vector.rememberVectorPainter
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.shreyashkore.composegoodies.text.AdaptiveText
+import com.shreyashkore.library.text.AdaptiveText
 
 @Composable
 fun AdaptiveButton(

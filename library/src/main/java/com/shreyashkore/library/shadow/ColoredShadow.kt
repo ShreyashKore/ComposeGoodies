@@ -1,4 +1,8 @@
-package com.shreyashkore.composegoodies.shadow
+/*
+ * Copyright (c) 2022. Shreyash Kore.
+ */
+
+package com.shreyashkore.library.shadow
 
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.composed

@@ -1,4 +1,8 @@
-package com.shreyashkore.composegoodies.text
+/*
+ * Copyright (c) 2022. Shreyash Kore.
+ */
+
+package com.shreyashkore.library.text
 
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.material.LocalTextStyle

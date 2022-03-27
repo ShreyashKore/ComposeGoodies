@@ -1,4 +1,8 @@
-package com.shreyashkore.composegoodies.lazylist
+/*
+ * Copyright (c) 2022. Shreyash Kore.
+ */
+
+package com.shreyashkore.library.lazylist
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyListScope

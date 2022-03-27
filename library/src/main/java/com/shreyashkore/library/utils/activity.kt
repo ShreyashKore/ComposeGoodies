@@ -1,4 +1,8 @@
-package com.shreyashkore.composegoodies.utils
+/*
+ * Copyright (c) 2022. Shreyash Kore.
+ */
+
+package com.shreyashkore.library.utils
 
 import android.app.Activity
 import android.content.ContextWrapper

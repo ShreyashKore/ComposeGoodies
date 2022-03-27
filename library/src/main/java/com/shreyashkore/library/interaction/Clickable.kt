@@ -1,4 +1,8 @@
-package com.shreyashkore.composegoodies.interaction
+/*
+ * Copyright (c) 2022. Shreyash Kore.
+ */
+
+package com.shreyashkore.library.interaction
 
 import android.view.View
 import android.view.ViewGroup
