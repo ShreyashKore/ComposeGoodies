@@ -16,5 +16,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Compose Goodies"
-include ':app'
-include ':library'
+include ':sample'
+include ':composegoodies'

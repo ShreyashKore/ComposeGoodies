@@ -25,7 +25,7 @@ import androidx.compose.ui.semantics.role
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.DpOffset
 
-fun Modifier.clickable(
+fun Modifier.clickableWithPosition(
     enabled: Boolean = true,
     onClickLabel: String? = null,
     role: Role? = null,
