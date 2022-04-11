@@ -9,7 +9,9 @@ import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box
-import androidx.compose.material.*
+import androidx.compose.material.LocalAbsoluteElevation
+import androidx.compose.material.LocalElevationOverlay
+import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Modifier
@@ -29,7 +31,7 @@ import com.shreyashkore.composegoodies.library.interaction.clickableWithPosition
 fun SurfaceWithClickPosition(
     modifier: Modifier = Modifier,
     shape: Shape = RectangleShape,
-    color: Color = MaterialTheme.colors.surface,
+    color: Color = MaterialTheme.colorScheme.surface,
     contentColor: Color = contentColorFor(color),
     border: BorderStroke? = null,
     elevation: Dp = 0.dp,
@@ -70,7 +72,7 @@ private fun SurfaceImpl(
 ) {
     val elevationOverlay = LocalElevationOverlay.current
     val absoluteElevation = LocalAbsoluteElevation.current + elevation
-    val backgroundColor = if (color == MaterialTheme.colors.surface && elevationOverlay != null) {
+    val backgroundColor = if (color == MaterialTheme.colorScheme.surface && elevationOverlay != null) {
         elevationOverlay.apply(color, absoluteElevation)
     } else {
         color

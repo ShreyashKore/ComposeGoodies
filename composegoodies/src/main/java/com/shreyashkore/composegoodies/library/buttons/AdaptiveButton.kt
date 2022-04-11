@@ -7,7 +7,7 @@ package com.shreyashkore.composegoodies.library.buttons
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material.*
+import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Shape
@@ -28,11 +28,11 @@ fun AdaptiveButton(
     enabled: Boolean = true,
     shape: Shape = CircleShape,
     spacing: Dp = 5.dp,
-    textStyle: TextStyle = MaterialTheme.typography.button,
+    textStyle: TextStyle = MaterialTheme.typography.labelLarge,
     contentPadding: PaddingValues = ButtonDefaults.ContentPadding,
     colors: ButtonColors = ButtonDefaults.buttonColors(),
     border: BorderStroke? = null,
-    elevation: ButtonElevation? = ButtonDefaults.elevation(0.dp, 0.dp, 0.dp),
+    elevation: ButtonElevation? = ButtonDefaults.buttonElevation(),
     iconSize: Dp = 24.dp,
     onClick: () -> Unit
 ) {
@@ -65,11 +65,11 @@ fun AdaptiveButton(
     enabled: Boolean = true,
     shape: Shape = CircleShape,
     spacing: Dp = 5.dp,
-    textStyle: TextStyle = MaterialTheme.typography.button,
+    textStyle: TextStyle = MaterialTheme.typography.labelLarge,
     contentPadding: PaddingValues = ButtonDefaults.ContentPadding,
     colors: ButtonColors = ButtonDefaults.buttonColors(),
     border: BorderStroke? = null,
-    elevation: ButtonElevation? = ButtonDefaults.elevation(0.dp, 0.dp, 0.dp),
+    elevation: ButtonElevation? = ButtonDefaults.buttonElevation(),
     iconSize: Dp = 24.dp,
     onClick: () -> Unit
 ) {
@@ -98,7 +98,7 @@ fun AdaptiveButton(
         AdaptiveText(
             text = text,
             style = textStyle,
-            fontSize = MaterialTheme.typography.button.fontSize
+            fontSize = MaterialTheme.typography.labelLarge.fontSize
         )
 
         if (trailingIcon != null) {

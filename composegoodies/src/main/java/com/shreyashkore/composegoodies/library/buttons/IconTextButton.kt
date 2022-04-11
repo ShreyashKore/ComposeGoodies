@@ -7,9 +7,9 @@ package com.shreyashkore.composegoodies.library.buttons
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.*
-import androidx.compose.material.Icon
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Text
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
 import androidx.compose.material.ripple.rememberRipple
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
@@ -30,7 +30,7 @@ fun IconTextButton(
     modifier: Modifier = Modifier,
     imageVector: ImageVector,
     text: String,
-    color: Color = MaterialTheme.colors.primary,
+    color: Color = MaterialTheme.colorScheme.primary,
     iconSize: Dp = 34.dp,
     fontSize: TextUnit = 12.sp,
     spacing: Dp = 0.dp,
@@ -53,7 +53,7 @@ fun IconTextButton(
     modifier: Modifier = Modifier,
     painter: Painter,
     text: String,
-    color: Color = MaterialTheme.colors.primary,
+    color: Color = MaterialTheme.colorScheme.primary,
     iconSize: Dp = 34.dp,
     fontSize: TextUnit = 12.sp,
     spacing: Dp = 0.dp,
