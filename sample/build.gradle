@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    compileSdk 31
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.shreyashkore.composegoodies.sample"
@@ -43,6 +43,8 @@ android {
             excludes += '/META-INF/{AL2.0,LGPL2.1}'
         }
     }
+    namespace 'com.shreyashkore.composegoodies.sample'
+
 }
 
 dependencies {
